@@ -25,27 +25,29 @@
   <section>
     <h2>Would You Like to Play Ultimate?</h2>
     <form name="playerinfo" action="page2.html" method="post">
-      <div>
-        <label>What is Your Name?</label>
-        <input type="text" name="name" placeholder="Your Name">
-      </div>
-      <div>
-        <label>What is Your Email?</label>
-        <input type="email" name="email" placeholder="Your Email">
-      </div>
-      <div>
-        <label>What Division Will You Play?</label>
-        <select name="division">
-          <option value="open">Open (Men's)</option>
-          <option value="womens">Women's</option>
-          <option value="mixed">Mixed</option>
-        </select>
-      </div>
-      <div>
-        <input type="checkbox" name="experience-yes" value="yes">
-        I have played Ultimate before.
-      </div>
-      <button type="submit">Submit</button>
+      <fieldset>
+        <div>
+          <label>What is Your Name?</label>
+          <input type="text" name="name" placeholder="Your Name">
+        </div>
+        <div>
+          <label>What is Your Email?</label>
+          <input type="email" name="email" placeholder="Your Email">
+        </div>
+        <div>
+          <label>What Division Will You Play?</label>
+          <select name="division">
+            <option value="open">Open (Men's)</option>
+            <option value="womens">Women's</option>
+            <option value="mixed">Mixed</option>
+          </select>
+        </div>
+        <div>
+          <input type="checkbox" name="experience-yes" value="yes">
+          I have played Ultimate before.
+        </div>
+        <button type="submit">Submit</button>
+      </fieldset>
     </form>
   </section>
   <section>
