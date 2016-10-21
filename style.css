@@ -1,32 +1,62 @@
 body {
+  font-family: 'Slabo 27px', serif;
 
 }
 
 h1 {
   margin-right: 0 auto;
+  text-align: center;
 }
 
 a:link {
-  color: DC143C;
+  color: blue;
 }
 
 a:visited {
   color: goldenrod;
 }
 
-fieldset {
-  border-width: thin;
+a:hover {
+  color: #DC143C;
+}
+
+#infoform {
+  border-width: 1px;
   border-radius: 20px;
+  padding-left: 15%;
+  padding-bottom: 10px;
+  padding-right: 10%;
+  border-color: black;
+  border-style: solid;
+  background-image: ;
+}
+
+fieldset {
+  border: none;
+  padding-left: 0;
 }
 
 h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
-}
-
-p, li, form, a, figcaption, dd {
-  font-family: 'Slabo 27px', serif;
+  margin-left: 10px;
 }
 
 footer {
   text-align: center;
+}
+
+p {
+  text-indent: 10px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.wikipedia{
+  background-color: #F6F6F6;
+}
+
+.usaultimate {
+  background-color: #9ABAE3;
 }
