@@ -1,6 +1,5 @@
 body {
   font-family: 'Slabo 27px', serif;
-
 }
 
 h1 {
@@ -62,5 +61,34 @@ p {
 
 .usaultimate {
   font-style: italic;
+}
 
+@media screen and (max-width: 810px) {
+  #infoform {
+    background-size: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #infoform {
+    background-size: 100px;
+    padding: 0;
+  }
+  h1, h2, h3 {
+    font-size: 1em;
+  }
+
+  body {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  figure {
+    visibility: hidden;
+    z-index: -1;
+  }
+  section {
+    z-index: 1;
+  }
 }
