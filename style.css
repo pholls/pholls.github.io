@@ -2,13 +2,19 @@ body {
 
 }
 
-a :visited {
-  color: orange;
+h1 {
+  margin-right: 0 auto;
+}
+
+a:link {
+  color: DC143C;
+}
+
+a:visited {
+  color: goldenrod;
 }
 
 fieldset {
-  border-style: ;
-  border-color: ;
   border-width: thin;
   border-radius: 20px;
 }
@@ -19,5 +25,8 @@ h1, h2, h3 {
 
 p, li, form, a, figcaption, dd {
   font-family: 'Slabo 27px', serif;
+}
 
+footer {
+  text-align: center;
 }
