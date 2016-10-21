@@ -28,7 +28,8 @@ a:hover {
   padding-right: 10%;
   border-color: black;
   border-style: solid;
-  background-image: ;
+  background-image: url(usaultimate-header.png);
+  background-size: contain;
 }
 
 fieldset {
@@ -54,9 +55,8 @@ p {
 }
 
 .wikipedia{
-  background-color: #F6F6F6;
+  text-transform: ;
 }
 
 .usaultimate {
-  background-color: #9ABAE3;
 }
