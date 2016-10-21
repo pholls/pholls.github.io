@@ -1,3 +1,94 @@
 body {
-  background: blue;
+  font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+  margin-right: 0 auto;
+  text-align: center;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: goldenrod;
+}
+
+a:hover {
+  color: #DC143C;
+}
+
+#infoform {
+  border-width: 1px;
+  border-radius: 20px;
+  padding-left: 15%;
+  padding-bottom: 10px;
+  padding-right: 10%;
+  border-color: black;
+  border-style: solid;
+  background-image: url(usa_ultimate_logo.gif);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+fieldset {
+  border: none;
+  padding-left: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+p {
+  text-indent: 10px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.wikipedia{
+  font-style: italic;
+}
+
+.usaultimate {
+  font-style: italic;
+}
+
+@media screen and (max-width: 810px) {
+  #infoform {
+    background-size: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #infoform {
+    background-size: 100px;
+    padding: 0;
+  }
+  h1, h2, h3 {
+    font-size: 1em;
+  }
+
+  body {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  figure {
+    visibility: hidden;
+    z-index: -1;
+  }
+  section {
+    z-index: 1;
+  }
 }
