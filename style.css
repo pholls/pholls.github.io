@@ -28,8 +28,10 @@ a:hover {
   padding-right: 10%;
   border-color: black;
   border-style: solid;
-  background-image: url(usaultimate-header.png);
+  background-image: url(usa_ultimate_logo.gif);
   background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 fieldset {
