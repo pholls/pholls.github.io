@@ -56,10 +56,12 @@ p {
 
 .wikipedia{
   font-style: italic;
+  font-family: Arial;
 }
 
 .usaultimate {
   font-style: italic;
+  font-family: Helvetica;
 }
 
 @media screen and (max-width: 810px) {
